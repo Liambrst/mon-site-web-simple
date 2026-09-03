@@ -32,11 +32,13 @@
 
 ```bash
 git init
+```
 
 ## b. Associez le dêpot distant
 
 ```bash
 git remote add origin [https://github.com/Liambrst/mon-site-wweb-simple.git](https://github.com/Liambrst/mon-site-wweb-simple.git)
+```
 
 ### c. Envoyer le projet
 
@@ -44,6 +46,7 @@ git remote add origin [https://github.com/Liambrst/mon-site-wweb-simple.git](htt
 git add .
 git commit -m "Premier commit"
 git push -u origin main
+```
 
 # 5. Modification du projet
 
@@ -57,11 +60,13 @@ git push -u origin main
 
 ```bash
 git status
+```
 
 ## Explication : Affiche les fichiers modifiés, ajoutés ou supprimés par rapport au dernier commit
 
 ```bash
 git diff
+```
 
 ## Explication : Montre précisément les lignes ajoutées (en vert) ou supprimées (en rouge) dans les fichiers modifiés.
 
@@ -71,6 +76,7 @@ Placez les fichiers modifiés dans la zone de staging :
 ```bash
 git add README.md
 
+```
 ## Explication : Place le fichier README.md dans la zone de staging (index) : il sera inclus dans le prochain commit.
 
 ### 3. Créer le commit
@@ -78,6 +84,7 @@ git add README.md
 
 ```bash
 git commit -m "docs: ajout de la description du projet"
+```
 
 ## Explication : Enregistre un nouvel instantané dans l'historique local avec un message descriptif explicite.
 
@@ -86,6 +93,7 @@ Synchronisez le dépôt local avec le serveur distant :
 
 ```bash
 git push
+```
 
 ## Explication : Transmet le commit au dépôt distant origin/main
 
