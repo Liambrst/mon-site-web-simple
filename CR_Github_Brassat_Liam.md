@@ -2,8 +2,6 @@
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)
-
 
 **Nom Prénom :** Liam Brassat  
 **Date :** 03/09/2026  
@@ -102,4 +100,34 @@ git push
 ```
 
 ## Explication : Transmet le commit au dépôt distant origin/main
+
+
+## 6. Questions de compréhension
+
+### Quelle est la différence entre `git clone` et `git pull` ?
+
+| | `git clone` | `git pull` |
+|---|---|---|
+| **Rôle** | Télécharge une **copie complète** du dépôt distant sur la machine locale | Récupère les **nouvelles modifications** du dépôt distant et les fusionne avec la branche locale |
+| **Quand** | **Première fois** qu'on récupère un projet | Pour **mettre à jour** une copie locale déjà existante |
+| **Résultat** | Crée un nouveau dossier avec le dépôt initialisé | Met à jour le dépôt local existant |
+
+> En résumé : `clone` **initialise** le projet, `pull` le **met à jour**.
+
+---
+
+### Pourquoi est-il important d'avoir des messages de commit clairs ?
+
+- **Documentation** : le message explique *pourquoi* un changement a été fait, pas seulement *quoi*.
+- **Traçabilité** : facilite la lecture du `git log`, le `git bisect` et la revue de code.
+- **Collaboration** : permet aux autres développeurs de comprendre l'évolution du projet sans relire tout le diff.
+- **Débogage** : aide à identifier rapidement une régression (`git blame`, `git revert`).
+
+**Bonnes pratiques :**
+
+- Utiliser l'**impératif présent** : `Ajouter la description du projet` (et non `J'ai ajouté…`)
+- Ligne de sujet ≤ **50 caractères**
+- Corps optionnel pour expliquer le contexte (≤ 72 caractères/ligne)
+- Références aux issues : `Fix #42`   
+
 
