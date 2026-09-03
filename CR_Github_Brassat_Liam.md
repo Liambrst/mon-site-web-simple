@@ -1,6 +1,6 @@
 # TP Git & GitHub — Mon site web simple
 
-**Auteur :** Liam Brassat  
+**Nom Prénom :** Liam Brassat  
 **Date :** 03/09/2026  
 **Dépôt GitHub :** [mon-site-web-simple](https://github.com/Liambrst/mon-site-web-simple)
 
@@ -34,7 +34,7 @@
 git init
 ```
 
-## b. Associez le dêpot distant
+### b. Associez le dêpot distant
 
 ```bash
 git remote add origin [https://github.com/Liambrst/mon-site-wweb-simple.git](https://github.com/Liambrst/mon-site-wweb-simple.git)
@@ -56,7 +56,7 @@ git push -u origin main
 
 ### 1. Vérifier les modifications
 
-##Avant d'ajouter des fichiers, vérifiez l'état du travail :
+Avant d'ajouter des fichiers, j'ai vérifié l'état du travail :
 
 ```bash
 git status
@@ -74,16 +74,16 @@ git diff
 Placez les fichiers modifiés dans la zone de staging :
 
 ```bash
-git add README.md
+git add "votre_dossier"
 
 ```
-## Explication : Place le fichier README.md dans la zone de staging (index) : il sera inclus dans le prochain commit.
+## Explication : Place le fichier dans la zone de staging (index) : il sera inclus dans le prochain commit.
 
 ### 3. Créer le commit
 ## Enregistrez les changements dans l'historique local :
 
 ```bash
-git commit -m "docs: ajout de la description du projet"
+git commit -m "Ajout de la description du projet"
 ```
 
 ## Explication : Enregistre un nouvel instantané dans l'historique local avec un message descriptif explicite.
